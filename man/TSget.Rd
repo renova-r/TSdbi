@@ -82,7 +82,7 @@ will be used for the series names in the returned time series matrix.
 \code{\link{TSput}},
 \code{\link{TSdates}}
 \code{\link[tframe]{tfwindow}}
-\code{\link[tframePlus]{changeTSrepresentation}}
+\code{tframePlus::changeTSrepresentation}
 }
 \keyword{ts}
 

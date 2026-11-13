@@ -1,5 +1,5 @@
 Package: TSdbi
-Version: 2017.4-1
+Version: 2017.4.1.9001
 Title: Time Series Database Interface
 Description: Provides a common interface to time series databases. The
 	objective is to define a standard interface so users can retrieve time 
@@ -15,14 +15,16 @@ Description: Provides a common interface to time series databases. The
 	handle multilingual data documentation.
 	Comprehensive examples of all the 'TS*' packages is provided in the
 	vignette Guide.pdf with the 'TSdata' package.
+    Compatibility updates by Renova.
 Depends: R (>= 2.8.0)
 Imports: methods, DBI(>= 0.3.1), tframe (>= 2015.1-1)
 Suggests: zoo, tseries, tis, tfplot, tframePlus
 BuildVignettes: true
 License: GPL-2
 Copyright: 2007-2011 Bank of Canada.  2012-2017 Paul Gilbert.
-Author: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Author: Paul Gilbert [aut, cre]
 Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
+Authors@R: person(given = "Paul", family = "Gilbert", role = c("aut", "cre"), email = "pgilbert.ttv9z@ncf.ca")
 URL: http://tsdbi.r-forge.r-project.org/
 NeedsCompilation: no
 Packaged: 2017-05-09 15:34:22 UTC; paul

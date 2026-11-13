@@ -58,7 +58,6 @@ Maintainer: Paul Gilbert <pgilbert.ttv9z@ncf.ca>
    \code{\link{TSput}}, 
    \code{\link{TSdates}}, 
    \code{\link[DBI]{dbConnect}}, 
-   \code{\link[TSSQLite]{TSdbiMethods}}, 
-   \code{\link[TSMySQL]{TSdbiMethods}}, 
-   \code{\link[TSPostgreSQL]{TSdbiMethods}}, 
+   \code{TSdbiMethods} in packages \pkg{TSSQLite}, \pkg{TSMySQL} and
+   \pkg{TSPostgreSQL}
 }
